@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        *{margin:0; padding: 0; box-sizing: border-box;}
+        #login{width: 450px; height: 660px; padding: 60px 66px 40px; background-color: rgba(0, 0, 0, 0.8);}
+        h2{font-size: 24px; color: rgb(245, 245, 247);margin: 0 0 40px;}
+        #login_id{width: 100%; height: 40px; background-color: rgb(245, 245, 247); border: none; border-radius: 6px; color:rgb(17, 17, 17) ;margin: 0 0 20px; padding: 0 20px;}
+        #login_pw{width: 100%; height: 40px; background-color: rgb(245, 245, 247); border: none; border-radius: 6px; color:rgb(17, 17, 17) ;margin: 0 0 20px;padding: 0 20px;}
+        #login_submit{ width: 100%; height: 40px; border: none; border-radius: 6px; color:rgb(17, 17, 17) ;background-color: rgb(229, 92, 9); color: rgb(245, 245, 247);margin: 0 0 20px;}
+        form p{color: rgb(245, 245, 247);}
+        form p a{color: rgb(245, 245, 247); text-decoration: none;}
+
+    </style>
+</head>
+<body>
+    <form action="login.php" id="login">
+        <h2>Sign In</h2>
+        <input type="email" id="login_id" name="id" placeholder="Email Address">
+        <input type="password" id="login_pw" name="password" placeholder="Password">
+        <input type="submit" id="login_submit" value="Sign In">
+        <p>New to Netflix <a href="#">Sign up now</a></p>
+
+    </form>
+
+
+    
+</body>
+</html>

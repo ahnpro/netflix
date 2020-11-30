@@ -1,0 +1,58 @@
+1. 프로젝트명
+Netflix Korea Website Renewal Project
+
+2. 프로젝트 기간
+2020.11.9~11.20(2주간, 8일)
+
+3. 프로젝트 담당자
+1) 기획자 : 넷플릭스
+2) 디자인 : 넷플릭스
+3) 구현 : 안재민
+
+4. 구현 플랫폼 OS
+1) OS
+Windows, macOS, LINUX 모두 구현
+
+2) Back-end 
+PHP, mySQL로 구축
+
+3) Front-end
+HTML5, CSS3, JavaScript ES6로 구현
+
+4) Code Editor
+Visual Studio Code 1.41
+
+5) 잔디(Jandi) 프로젝트 팀명
+프론트엔드 부트캠프 10기
+
+5. 반응형 중단점 설정(Break Point)
+
+1) Desktop
+min-width : 1200px
+min-width:950px and max-width:1199px
+
+2) Tablet
+min-width:550px and max-width:949px
+
+3) Mobile
+max-width:549x
+
+6. 정보구조(IA)
+1) Home
+로그인
+자주묻는 질문
+
+2) Membership
+외국영화
+한국영화
+
+7. 디렉토리 설정
+1) root
+img
+css
+fonts
+video
+js
+index.html
+
+2)sub directory
