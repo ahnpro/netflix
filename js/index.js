@@ -114,9 +114,9 @@ tvText = document.getElementById('tv_text_li');
 offlineText = document.getElementById('offline_text_li');
 deviceText = document.getElementById('device_text_li');
 
-document.getElementById('scroll_position').innerHTML = scrollPoint;
-document.getElementById('tvtext_position').innerHTML = tvText.offsetTop;
-document.getElementById('offlintext_position').innerHTML = offlineText.offsetTop;
+// document.getElementById('scroll_position').innerHTML = scrollPoint;
+// document.getElementById('tvtext_position').innerHTML = tvText.offsetTop;
+// document.getElementById('offlintext_position').innerHTML = offlineText.offsetTop;
 
 
 
